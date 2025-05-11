@@ -10,6 +10,7 @@ body {
 .header1 {
     position: relative;
     height: 61px;
+    top: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,4 +27,31 @@ a {
     margin: 15px;
     color: #703412;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header2 {
+    position: relative;
+    height: 572px;  
+}
+
+.p1 {
+    position: absolute;
+    width: 160px;
+    height: 44px;
+    top: 188px;
+    left: 72px;
+    font-size: 11px;
+    color: #703412;
+}
+
+.p2 {
+    position: absolute;
+    width: 848px;
+    height: 264px;
+    top: 253px;
+    left: 72px;
+    font-size: 80px;
+    color: #703412;
 }
